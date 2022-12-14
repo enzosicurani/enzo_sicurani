@@ -1,4 +1,6 @@
 function calculadora() {
+   while (calculadora != sumar, restar, multiplicar, dividir) {
+    
     var valor1 = prompt("Ingrese un valor");
     valor1 = parseInt(valor1);
   
@@ -7,18 +9,19 @@ function calculadora() {
   
     var operacion = prompt("¿Que operacion desea realizar?");
   
-    if (operacion == "sumar") {
+    if (operacion == "sumar") { alert (`La suma es: ${sumar(valor1, valor2)}`)
       return "La suma es: " + sumar(valor1, valor2);
     }
-    else if (operacion == "restar") {
+    else if (operacion == "restar") { alert (`La resta es: ${restar(valor1, valor2)}`)
       return "La resta es: " + restar(valor1, valor2);
     }
-    else if (operacion == "multiplicar") {
+    else if (operacion == "multiplicar") { alert (`La multiplicacion es: ${multiplicar(valor1, valor2)}`)
       return "La multiplicacion es: " + multiplicar(valor1, valor2);
     }
-    else if (operacion == "dividir") {
+    else if (operacion == "dividir") { alert (`La division es: ${dividir(valor1, valor2)}`)
       return "La division es: " + dividir(valor1, valor2);
     }
+   }
   }
   
   calculadora();
